@@ -1,7 +1,7 @@
-body {
-  background-color: black;
-  color: red;
+* {
+  box-sizing: border-box;
 }
-body ul {
-  font-size: 30px;
+
+body {
+  font-family: "Mulish", sans-serif;
 }/*# sourceMappingURL=style.css.map */
