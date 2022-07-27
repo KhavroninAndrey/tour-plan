@@ -424,24 +424,26 @@ template {
   .container {
     max-width: 760px;
   }
-  .container .logo {
+  .logo {
     width: 132px;
   }
-  .container .navbar-top {
+  .navbar-top {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .container .navbar__search {
+  .navbar__search {
     margin-left: auto;
-    max-width: 340px;
   }
-  .navbar-manu {
+  .navbar-menu {
     padding-top: 22px;
     padding-bottom: 22px;
   }
-  .navbar-manu__link {
+  .navbar-menu__link {
     font-size: 12px;
     line-height: 15px;
+  }
+  .search__input {
+    max-width: 340px;
   }
 }
 @media (max-width: 768px) {
@@ -456,6 +458,7 @@ template {
     display: flex;
     width: 16px;
     height: 11px;
+    padding: 0;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
